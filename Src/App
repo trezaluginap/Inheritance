@@ -1,0 +1,27 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        lingkaran lingkaran = new lingkaran(7, "lingkaran ABC");
+        lingkaran.getinfo();
+
+        System.out.println("\t");
+        persegi persegi1 = new persegi("persegi CAB", 5);
+        persegi1.getinfo();
+
+        System.out.println("\t");
+        SegitigaSamaKaki segitigaSamaKaki1 = new SegitigaSamaKaki("Segitiga Sama Kaki ", 5, 3);
+        segitigaSamaKaki1.getinfo();
+
+        System.out.println("\t");
+        SegitigaSembarang segitigaSembarang1 = new SegitigaSembarang("Segitiga Sembarang ", 16, 12, 10, 30);
+        segitigaSembarang1.getinfo();
+
+        System.out.println("\t");
+        SegitigaSikuSiku segitigaSikuSiku1 = new SegitigaSikuSiku("Segitiga Siku Siku ", 5, 3);
+        segitigaSikuSiku1.getinfo();
+
+        System.out.println("\t");
+        SegitigaSamaSisi segitigaSamaSisi1 = new SegitigaSamaSisi("Segitiga Sama Sisi ", 12);
+        segitigaSamaSisi1.getinfo();
+
+    }
+}
